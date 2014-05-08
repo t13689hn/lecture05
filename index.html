@@ -12,21 +12,16 @@
 				<h2>次の点を確認してください</h2>
 				<ul>
 					<li>入力したのは数値ですか？文字列を入力していませんか？</li>
-					<li>演算子を正しく選んでいますか？</li>
-					<li>0で割ろうとしていませんか？</li>
-					<li>自然数以外の数に対して「あまり」を計算しようとしていませんか？</li>
+					<li>小数、あるいは負の数を入力していませんか？</li>
 				</ul>
 			</div>
 			<form>
 				<input type="text" id="operand_a">
 				<select id="operator">
-					<option>+</option>
-					<option>-</option>
 					<option>*</option>
-					<option>/</option>
 					<option>%</option>
 				</select>
-				<input type="text" id="operand_b">
+				<p>1.08</p>
 				<p>=</p>
 				<input type="text" id="output">
 				<button type="button" id="calcButton">計算</button>
